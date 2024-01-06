@@ -9,7 +9,7 @@ const myArr = [0,1,2,3,4,5,]
 const myHeros = ["Yash Raj", "Amir khan", "Allu Arjun"]
 const myArr2 = (1, 2, 3, 4)
 
-// console.log(myArr[1]);
+ console.log(myArr[1]);
 
 // Array methods
 // 1.Push(how many array in present just like 0, 1, 2, 3)
@@ -35,11 +35,11 @@ const myArr2 = (1, 2, 3, 4)
 
 // Slice, Splice
  
-console.log("A", myArr);
-const myn1 = myArr.slice(1, 3)
-console.log(myn1);
-console.log("B", myn1);
+// console.log("A", myArr);
+// const myn1 = myArr.slice(1, 3)
+// console.log(myn1);
+// console.log("B", myn1);
 
-const myn2 = myArr.splice(1, 3)
-onsole.log("C", myArr);
-console.log(myn2);
+// const myn2 = myArr.splice(1, 3)
+// console.log("C", myArr);
+// console.log(myn2);

@@ -1,25 +1,25 @@
-// This method current context refeer karta hai //
+// // This method current context refeer karta hai //
 
 
 
-const user = {
-    username: "uttam", 
-    price: 399,
+// const user = {
+//     username: "uttam", 
+//     price: 399,
 
-    welcomeMessage: function(){
-        console.log(`${this.username} , welocome to website`); 
-        console.log(this);
+//     welcomeMessage: function(){
+//         console.log(`${this.username} , welocome to website`); 
+//         console.log(this);
 
-    }
+//     }
 
-}
+// }
 // user.welcomeMessage()
 // user.username = "karan"
 // user.welcomeMessage()
 
- //console.log(this);
+//  console.log(this);
 
- // this is not use in function and only use in object inside
+//  //this is not use in function and only use in object inside
 
 //  function chai(){
 //     let user = "uttam"
@@ -35,26 +35,26 @@ const user = {
     
 // }
 
-const chai = () => {
-    let username = "uttam"
-     //console.log(this);
+// const chai = () => {
+//     let username = "uttam"
+//      //console.log(this);
 
 
-
-}
-
-chai()
-
-// (() => {}) // this is arrow function
-
-// const addTwo = (num1, num2) =>{
-//     return num1 +num2  // this isexplicit
 
 // }
 
-//const addTwo = (num1, num2) => num1 +num2
+// chai()
 
-//const addTwo = (num1, num2) => (num1 +num2) // this is implicit
+// (() => {}) // this is arrow function
+
+const addTwo = (num1, num2) =>{
+     return num1 +num2  // this isexplicit
+
+ }
+
+const addTwo = (num1, num2) => num1 +num2
+
+const addTwo = (num1, num2) => (num1 +num2) // this is implicit
 const addTwo = (num1, num2) => ({username: "uttam"})
 
 

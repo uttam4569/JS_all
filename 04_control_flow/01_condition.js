@@ -67,6 +67,6 @@ if(userLoggedIn && debitCard && 2==3) {
 }
 
 if (userLoggedInFromGoogle || userLoggedInFromEmail) {
-    console.log("User logged in");
+    console.log("User LoggedIn");
 
 }
